@@ -1,0 +1,12 @@
+# Build output and local files
+/bin/
+/obj/
+.vs/
+*.user
+*.suo
+*.log
+
+# Never commit launcher inputs or patched outputs
+*.exe
+*.fixed.*
+.pcl-repair-*
